@@ -1,6 +1,11 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <?php if(!$this->page404()): ?>
 <footer id="footer">
+<!-- aplayer -->
+<script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/js/v3.js"></script>
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/layer/layer.js"></script>
     <div id="footer-wrap"><div class="copyright">   
     <div class="copyright">©<?php echo date('Y'); ?> By <?php $this->author(); ?></div>
     <div class="framework-info">
