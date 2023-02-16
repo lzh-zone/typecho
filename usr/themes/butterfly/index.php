@@ -42,6 +42,7 @@ if($sticky && $this->is('index') || $this->is('front')){
 }
 ?>
 <?php  $this->need('header.php'); ?>
+<div id="aplayer" class="aplayer" data-order="random" data-id="2047115431" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.6"></div>
 <main class="layout" id="content-inner">
 <div class="recent-posts" id="recent-posts">
 <?php while($this->next()): ?>
